@@ -1,5 +1,13 @@
-a=int(input("enter a no:"))
-if a<21:
-    print((21-a),'is the absolute difference')
-else:
-    print(2*(a-21),'is the difference')
+a = int(input("enter a no:"))
+
+
+def diff21(c):
+    if c < 21:
+        s=21-c
+        print (s, 'is the absolute difference')
+    else:
+        s=2*(c-21)
+        print (s, 'is the difference')
+
+
+diff21(a)
